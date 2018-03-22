@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaibhav.questtothetop.EndActivity">
+
+    <TextView
+        android:id="@+id/scorename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="SCORE"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scorename"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="0/0"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="GOOD JOB"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/playagain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="play again"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playagain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="home"
+        android:textSize="30sp" />
+
+</RelativeLayout>
